@@ -312,6 +312,10 @@ justify-content: center;
 align-items: center;
 }
 
+.boton-contactanos{
+  margin-left: 16px;
+}
+
 .formularioboo{
   background-color: var(--colorPrimario-fondos) ;
   padding: 15px;
