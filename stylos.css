@@ -453,10 +453,10 @@ footer{
     .slogan{
       display: flex;
       text-align: center;
-      background-color: var(--colorPrimario-botonesOscuro);
+      background-color: var(--colorPrimario-fondosOscuro);
       color: mintcream;
       font-size: x-large;
-      border-radius: 50px;
+      border-radius: 20px;
       margin-bottom: 37px;
       padding: 15px;
       margin-top: 10px;
