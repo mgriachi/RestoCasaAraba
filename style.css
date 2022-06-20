@@ -1,0 +1,460 @@
+:root{
+    --colorPrimario-fondos: rgba(15, 76, 117, 0.696);
+    --colorPrimario-fondosOscuro: rgb(27,38,44);
+    --colorPrimario-botones:rgb(187,225,250);
+    --colorPrimario-botonesOscuro:rgb(50,130,184);
+    --Degradadofondo:rgba(4, 0, 34, 0.142);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+ 
+}
+
+body{ 
+    display: flex;
+    flex-direction: column;
+    background:
+    linear-gradient(135deg, var(--Degradadofondo), var(--Degradadofondo)),
+     url(img/fondopatron.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
+}
+
+ /* Empieza el menu */
+
+header{
+    background-color: var(--colorPrimario-fondos);
+    display: flex;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    display: flex;
+    text-decoration: none;
+  
+}
+
+.logoTexto {
+color: aliceblue;
+padding-left: 5px;
+    margin: 5px;
+    margin-left: 25px;
+}
+.img-menu{
+    width: 45px; 
+    padding-left: 5px;
+    margin: 5px;
+}
+nav ul{
+       display: flex;
+       margin-right: 25px;
+       padding-top: 12px;
+   }
+
+   nav li{
+    padding: 11px;
+    
+
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    
+}
+
+ /* Termina el menu */
+
+ /* Empieza el Encabezado */
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-encabezado{
+    padding: 60px;
+
+}
+
+
+.slogan{
+    display: flex;
+    align-items: center;
+    background-color: var(--colorPrimario-fondosOscuro);
+    color: mintcream;
+    font-size: xx-large;
+    border-radius: 50px;
+    margin-top: 231px;
+    margin-left: 0px;
+    margin-bottom: 237px;
+    padding: 15px;
+    
+}
+
+.cartaImg img{
+    border-radius: 50px;
+    width: 300px;
+}
+
+
+ /* Termina el Encabezado */
+
+
+  /* Empieza la carta */
+  .cartasection{
+      background-image: url(img/fondopatron.jpg);
+  }
+
+ 
+  .carta{
+    
+    background-color: var(--colorPrimario-fondos);
+    border-radius: 20px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+.carta h3{
+    color: aliceblue;
+    display: flex;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 20px;
+    padding-top: 27px;
+}
+.cartaImg{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+
+   /* Termina la carta */
+
+   /* Empieza Eventos */
+   
+.SobreNosotros{
+    margin-top: 100px;
+}
+
+   
+/* .eventos h1{
+    display: flex;
+    align-items: center;
+    background-color: var(--colorPrimario-fondosOscuro);
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 71px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 50px;
+} */
+
+.fotosEventos{
+    padding: 20px;
+    display: grid;
+    grid-template-columns :repeat(4, 1f) ;
+    grid-template-rows: repeat(2, 1f) ;
+    grid-template-areas: 
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8";
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.fotosEventos img{
+  width: 200px;
+  margin: 20px;
+  opacity:0.6;
+}
+   /* Termina Eventos */
+
+
+   /* Empieza SobreNosotros*/   
+.centrar{
+   display: flex;
+   padding-bottom: 100px;
+
+}
+/* .SobreNosotros h2{
+    display: flex;
+    align-items: center;
+    background-color: var(--colorPrimario-fondosOscuro);
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 50px;
+    padding: 10px;
+} */
+.SobreNosotros p{
+    background-color:var(--colorPrimario-fondos);
+    border-radius: 50px;
+    margin: 30px;
+    padding: 40px;
+    color: aliceblue;
+    font-size: 18px;
+    
+
+}
+.SobreNosotros img{
+    width: 300px;
+    padding: 40px;
+}
+
+   /* Termina SobreNosotros*/      
+   
+    /* Empieza contactanos*/  
+
+.grid-contacto{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.formularioboo{
+    background-color: var(--colorPrimario-fondos) ;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 50px;
+    
+}
+
+.tituloContactanos{
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    background-color: var(--colorPrimario-fondosOscuro);
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.centradoform{
+     margin-right: 20px;
+    margin: 15px;
+   
+    align-items: center;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.form-label{
+    color:aliceblue;
+}
+
+
+
+    /* Termina contactanos*/ 
+
+/* Comienza comentarios  */
+.formularioComentarios{
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.tituloComentarios{
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    background-color: var(--colorPrimario-fondosOscuro);
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+.card-title{
+    color:aliceblue;
+}
+
+/* termina comentarios  */ 
+
+   /* Empieza footer */
+
+
+footer{
+    background-color:var(--colorPrimario-fondosOscuro);
+    color: aliceblue;
+    text-align: center;
+
+    
+}
+.corzon{
+    color: red;
+}
+
+   /* Termina footer */
+
+   /* Empieza animaciones */
+
+
+      /* Empieza animaciones inicio */
+      .cartaImg img:hover {
+        transform: scale(90%);
+        opacity:0.5;
+      }
+
+      /* termina animacioneas inicio*/ 
+      
+
+      /* Empieza animaciones eventos*/
+      .fotosEventos img:hover {
+        transform: scale(90%);
+        opacity:10;
+      }
+
+      /* termina animacioneas eventos*/ 
+      
+
+      /* Empieza animaciones footer */
+
+      
+
+      /* termina animacioneas footer*/ 
+      
+      /* Empieza animaciones  */
+
+
+      /* termina animacioneas */ 
+
+
+  /* termina animacioneas */
+
+    /* Empieza animaciones  */
+       /* termina animacioneas */ 
+    @media only screen and (min-width: 1px) and (max-width: 424px){
+      body{
+          background-image: url(img/fondopatronvertical.jpg);
+         background-size: cover;
+      }
+      header{
+        flex-direction: column;
+      }
+
+      /* empieza inicio */
+      .encabezado{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .slogan{
+        display: flex;
+        text-align: center;
+        background-color: var(--colorPrimario-botonesOscuro);
+        color: mintcream;
+        font-size: x-large;
+        border-radius: 50px;
+        margin-bottom: 37px;
+        padding: 15px;
+        margin-top: 10px;
+      }
+
+        .img-menu{
+            display: none;
+            color: aliceblue;
+            align-items: center;
+        }
+
+        nav ul{
+        display: block;
+        margin-right: 171px;
+
+        }
+        nav li{
+            padding: 7px;
+            
+        
+        }
+     
+        .cartaImg{
+            flex-direction: column;
+        }
+        .cartaImg img{
+            width: 150px;
+            margin: 10px;
+        }
+        /* Termina inicio */
+    
+        /* inicia envento */
+        .eventos{
+           
+            margin-top: 11px;
+        }
+        .fotosEventos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Termina evento */
+
+        /* empieza SobreNosotros */
+        .SobreNosotros{
+            display: flex;
+            flex-direction: column;
+        }
+        .SobreNosotros h1{
+            margin: 30px 0px 10px 0px;
+        }
+        .SobreNosotros img{
+        padding: 11px 0px 0px 11px;
+        }
+        .centrar{
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Termina SobreNosotros */
+    }
+
+ 
