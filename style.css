@@ -400,6 +400,15 @@ footer{
         margin-top: 10px;
       }
 
+    .row{
+        padding-left: 0px; !important
+    }
+
+      .col-sm-4{
+        margin-bottom: 15px;
+        display: flex;
+        
+      }
         .img-menu{
             display: none;
             color: aliceblue;
